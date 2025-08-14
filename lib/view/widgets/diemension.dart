@@ -1,0 +1,1 @@
+const mobilDemension = 600;
