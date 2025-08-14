@@ -1,16 +1,23 @@
-# responsive_design
+# Responsive Flutter Desktop Layout
 
-A new Flutter project.
+A Flutter desktop UI demonstrating a responsive layout with a resizable top container (16:9 aspect ratio) and a list of items below.  
+The top container dynamically adjusts to the window size while avoiding overflow issues.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Responsive Top Container**  
+  Maintains a 16:9 aspect ratio and adjusts its height based on available width, with a maximum height limit to prevent layout overflow.
+  
+- **Adaptive List Section**  
+  The list below the container adjusts to fill remaining space and scrolls when necessary.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Desktop-Friendly Layout**  
+  Designed with `Row` and `Column` structures for smooth resizing across different window sizes.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+
+
+
