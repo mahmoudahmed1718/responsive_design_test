@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_design/view/widgets/custom_list_view.dart';
 
 class DesktopBody extends StatelessWidget {
   const DesktopBody({super.key});
@@ -22,20 +23,7 @@ class DesktopBody extends StatelessWidget {
                     ),
                   ),
                 ),
-                Expanded(
-                  child: ListView.builder(
-                    itemCount: 8,
-                    itemBuilder: (context, index) {
-                      return Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Container(
-                          height: 80,
-                          color: Colors.deepPurple.withValues(alpha: 0.7),
-                        ),
-                      );
-                    },
-                  ),
-                ),
+                Expanded(child: CustomListView()),
               ],
             ),
           ),
